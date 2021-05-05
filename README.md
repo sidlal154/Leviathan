@@ -1,6 +1,6 @@
 # Leviathan
 
-A simple python script to alert user for vaccine slots. This code searches for given number of available vaccine capacity sessions in a district every 5 seconds, and if present dumps out the details in a file named ```available-centers.yaml``` with a pop-up alert. (TODO: Alers are currently only supported on windows 10)
+A simple python script to alert user for vaccine slots. This code searches for given number of available vaccine capacity sessions in a district every 5 seconds, and if present dumps out the details in a file named ```available-centers.yaml``` with a pop-up alert. (TODO: Alers are currently only supported on windows 10, add support for other OS as well)
 
 # Prerequisites:
 
