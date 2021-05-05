@@ -4,7 +4,7 @@ A simple python script to alert user for vaccine slots. This code searches for g
 
 # Prerequisites:
 
-1) Python 3.4+ : For installation https://www.python.org/downloads/
+1) Python 3.4+ (prefer Python 3.9.5) : For installation https://www.python.org/downloads/
 2) Downloan pip/pip3: 
     - pip should be automatically installed with Python 3.4+. To check, run ```pip help``` or ```pip3 help``` in command prompt/Powershell/Terminal
     - If not present, follow this tutorial: https://phoenixnap.com/kb/install-pip-windows
