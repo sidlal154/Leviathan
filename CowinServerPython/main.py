@@ -39,14 +39,14 @@ if __name__=="__main__":
     end = time.time()
     print(f"Runtime of the program is {end - start}")
     file = open("available-centers.yaml", "w")
-    file.write("Available Centers:\n")
+    file.write("Available Centers:\n\n")
     i = 0
     for a in available_centers:
         i=i+1
         file.write("Center Slno:"+str(i)+"\n")
         yaml.dump(a,file, allow_unicode=True, default_flow_style=False)
         file.write("-------------------------------------------------------------------------------\n")
-        file.write("\n")
+        file.write("\n\n")
     file.write("----------------------------------------END--------------------------------------")
     file.close()
     n = ToastNotifier()
