@@ -9,9 +9,7 @@ def apicall(url,querystring):
     #querystring = {}
     #print(url)
     headers = {
-        'User-Agent': "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36",
         'cache-control': "no-cache",
-        'postman-token': "61ed487f-17a9-5010-288b-598fc5386ea1"
     }
     response = requests.request("GET", url, headers=headers, params=querystring)
     #print(response.status_code)
